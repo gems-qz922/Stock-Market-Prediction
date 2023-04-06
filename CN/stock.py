@@ -6,7 +6,7 @@ import matplotlib
 import sqlite3
 from datetime import datetime
 
-class stock:
+class Stock:
     def __init__(self, symbol, lmt=5000):
         '''symbol: string of the 6 digit number of a stock
         lmt: limit of length of data, default 5000'''
